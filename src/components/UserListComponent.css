@@ -1,0 +1,15 @@
+.userList {
+    text-align: center;
+    width: 300px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.userListItem{
+    color: #181a48;
+    background-color: #77787a;
+}
+
+.userListItem:hover {
+    background-color: #5d5e60;
+}
