@@ -3,6 +3,7 @@ import * as React from 'react';
 import State from "./api/State";
 import UserInputComponent from "./components/UserInputComponent";
 import UserListComponent from "./components/UserListComponent";
+import Counter from "./components/Counter";
 
 
 class App extends React.Component<any, State> {
@@ -30,6 +31,9 @@ class App extends React.Component<any, State> {
         //     </div>
         // );
         return <div>
+            <div style={{marginLeft: 'auto', marginRight: 'auto', width: '200px', textAlign: 'center'}}>
+                <Counter/>
+            </div>
             <UserInputComponent/>
             <UserListComponent/>
         </div>

@@ -1,0 +1,43 @@
+.counter {
+    background-color: #aaaaaa;
+    color: #595759;
+    width: 200px;
+    height: 150px;
+    border: #595759 2px solid;
+    text-align: center;
+}
+
+.counter button{
+    font-size: large;
+    background-color: white;
+    border: #595759 1px solid;
+    border-radius: 3px;
+}
+
+.counter button:hover {
+    background-color: #77787a;
+}
+
+.minusButton {
+    position: relative;
+    left: -30px;
+    height: 30px;
+    width: 30px;
+}
+
+.plusButton {
+    position: relative;
+    right: -30px;
+    height: 30px;
+    width: 30px;
+}
+
+.startButton {
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.counterHolder {
+    width: 100px;
+}
